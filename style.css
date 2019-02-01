@@ -1,4 +1,20 @@
-header {
-  color: green;
-  background-color: red;
+body {
+   background-color: grey;
 }
+
+   header {
+   color: red;
+   font-family: Tahoma;
+
+   }
+
+   h1 {
+      color: darkcyan;
+      font-family: cursive;
+   }
+
+   p {
+      color: orange;
+      font-family: Times;
+   }
+
