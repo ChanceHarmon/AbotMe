@@ -2,19 +2,33 @@ body {
    background-color: grey;
 }
 
-   header {
+header {
+   
+   font-size: 50px;
    color: red;
    font-family: Tahoma;
 
    }
 
-   h1 {
-      color: darkcyan;
-      font-family: cursive;
+h1 {
+   color: rgb(66, 219, 35);
+   font-family: cursive;
    }
 
-   p {
-      color: orange;
-      font-family: Times;
+p {
+   color: orange;
+   font-family: Times;
+   }
+ul {
+   border-width: 5px;
+   color: red;
+   padding: 20px;
+   margin: 20px;
+   }
+ol {
+   border-width: 5px;
+   color: red;
+   padding: 20px;
+   margin: 20px;
    }
 
