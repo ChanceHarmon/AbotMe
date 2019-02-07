@@ -1,4 +1,4 @@
-/*'use strict';
+'use strict';
 var name = prompt('If you are going to learn about me, I would like to know your name, please tell me!');
 console.log(name);
 
@@ -21,11 +21,11 @@ var school = prompt('Did I finish High School?');
         alert ('oh yee of little faith...');
     }
 var bones = prompt(name + ', Do you think I have ever broken a bone?');
-   // console.log(bones);
-    //if (bones.toLowerCase() === 'yes'){
-    //    alert ('Correct! I broke a single bone in 9 places! Titanium fixes everything.');
-    //}
-    /*else {
+    console.log(bones);
+    if (bones.toLowerCase() === 'yes'){
+        alert ('Correct! I broke a single bone in 9 places! Titanium fixes everything.');
+    }
+    else {
         alert ('I would not say I am accident prone, but i have been wreckless on a few of life\'s occassions...');
     }
 var years = prompt('How many years have I been at my current employer? Please spell out your answer.');
@@ -43,12 +43,13 @@ var genius = prompt('Do I know what I am doing?');
     }
     else {
         alert ('I could sell you a pen for \$100 all day!');
-    }*/
+    }
 
 
 var count = prompt('How many tattoos do I have?');
-for (var i = 0; i < 2; i++){
-  if (count === '5'){
+console.log(prompt);
+for (var i = 0; i < 3; i++){
+  if (count === '7'){
     alert('correct');
     break;
 
@@ -57,3 +58,24 @@ for (var i = 0; i < 2; i++){
   }
   count = prompt('Try again');
 }
+
+var counter = 0;
+
+for (var i = 0; i < 7; i++) {
+var instrument = ['guitar', 'piano', 'air drums'];
+var instrument = prompt('What instruments can I play?');
+console.log(instrument);  
+  if (instrument === 'guitar' || instrument === 'piano' || instrument === 'air drums'){ 
+    alert('Great Job!');
+    counter++;}
+    else {
+      alert('Try again!');
+    }
+  } 
+   alert('You got ' + counter + ' Points out of 7');
+  
+    
+  
+  
+  
+
