@@ -78,11 +78,13 @@ var counter = 0;
 
 for (var i = 0; i < 7; i++) {
 var instrument = ['guitar', 'piano', 'air drums'];
-var instrument = prompt('What instruments can I play?');
+var instrumentQuestion = prompt('What instruments can I play?');
 console.log(instrument);  
-  if (instrument === 'guitar' || instrument === 'piano' || instrument === 'air drums'){ 
+  if (instrument.includes(instrumentQuestion)){ 
     alert('Great Job!');
-    counter++;}
+    counter++;
+    break;
+  }
     else {
       alert('Try again!');
     }
